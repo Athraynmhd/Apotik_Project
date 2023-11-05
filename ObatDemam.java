@@ -19,7 +19,8 @@ class ObatDemam extends Obat {
                 return "Dosis sedang: 1 tablet setiap 8 jam.";
             case 3:
                 return "Dosis berat: 1 tablet setiap 4 jam.";
+            default:
+                return "Stadium tidak dikenal.";
         }
     }
 }
-    
