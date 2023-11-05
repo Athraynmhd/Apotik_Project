@@ -33,3 +33,4 @@ public class Apotik {
             System.out.println("1. Sakitnya ringan gosah banya li tingkah lah");
             System.out.println("2. sakit Butuh penanganan lebih lanjut");
             System.out.println("3. omak hamper meninggoy bro");
+            int sakit = Integer.parseInt(scanner.nextLine());
