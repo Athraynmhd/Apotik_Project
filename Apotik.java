@@ -23,4 +23,4 @@ public class Apotik {
             System.out.println("5. Sakit Hati");
             System.out.println("0. Selesai dan cetak struk");
 
-            
+            int jenis = Integer.parseInt(scanner.nextLine());
