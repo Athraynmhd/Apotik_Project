@@ -1,1 +1,2 @@
-# Apotik_Project
+TOPIK : APOTIK
+FENOMENA : Sistem pembelian obat di apotik
