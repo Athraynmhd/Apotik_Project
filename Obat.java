@@ -9,3 +9,15 @@ public abstract class Obat {
         this.deskripsi = deskripsi;
         this.stadium = stadium;
     }    
+
+    public double getHarga() {
+        return harga;
+    }
+    
+    public String getNama() {
+        return nama;
+    }
+
+    public int getStadium() {
+        return stadium;
+    }
