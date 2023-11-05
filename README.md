@@ -1,2 +1,2 @@
-TOPIK : APOTIK
-FENOMENA : Sistem pembelian obat di apotik
+[ TOPIK : APOTIK ]  
+[ FENOMENA : Sistem pembelian obat di apotik ]
