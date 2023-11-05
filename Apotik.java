@@ -42,4 +42,7 @@ public class Apotik {
                 System.out.println("Pilih obat:");
                 for (int i = 0; i < opsiObat.length; i++) {
                     System.out.println((i + 1) + ". " + opsiObat[i]);
+                }
+                int pilihanObat = Integer.parseInt(scanner.nextLine());
+                String obatTerpilih = opsiObat[pilihanObat - 1];
                 
