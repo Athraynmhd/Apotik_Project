@@ -15,3 +15,5 @@ class ObatKepala extends Obat {
         switch (stadium) {
             case 1:
                 return "Dosis ringan: 1 tablet setiap 6 jam.";  
+            case 2:
+                return "Dosis sedang: 1 tablet setiap 4 jam.";    
