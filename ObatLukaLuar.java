@@ -14,6 +14,13 @@ class ObatLukaLuar extends Obat {
     public String dosis() {
         switch (stadium) {
             case 1: 
-                return "Cuma Solat obatnya.";
-
-         yaudah solat broo
+                return "Dosis ringan: Oleskan pada luka sekali sehari.";
+            case 2: 
+                return "Dosis sedang: Oleskan pada luka dua kali sehari.";
+            case 3: 
+                return "Dosis berat: Oleskan pada luka tiga kali sehari.";
+            default: 
+                return "Stadium tidak dikenal.";
+        }
+    }
+}
