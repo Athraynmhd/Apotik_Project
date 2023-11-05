@@ -24,3 +24,7 @@ public class Apotik {
             System.out.println("0. Selesai dan cetak struk");
 
             int jenis = Integer.parseInt(scanner.nextLine());
+
+           f (jenis == 0) {
+                break;
+            } 
