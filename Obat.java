@@ -21,3 +21,6 @@ public abstract class Obat {
     public int getStadium() {
         return stadium;
     }
+
+    public abstract String dosis();
+}
