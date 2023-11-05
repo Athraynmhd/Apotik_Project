@@ -3,11 +3,7 @@ class ObatKepala extends Obat {
         super(namaObat, "Obat ini digunakan untuk meredakan sakit kepala.", stadium);
     }
 
-    public double getHarga() {
-        return harga;
-    }
-
- @Override
+    @Override
     public String dosis() {
         switch (stadium) {
             case 1:
@@ -20,3 +16,4 @@ class ObatKepala extends Obat {
                 return "Stadium tidak dikenal. Silakan konsultasi dengan dokter.";
         }
     }
+}
