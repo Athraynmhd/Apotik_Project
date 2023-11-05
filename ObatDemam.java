@@ -9,6 +9,6 @@ class ObatDemam extends Obat {
 
      @Override
     public String dosis() {
-        return "Dosis obat demam: [Detail dosis berdasarkan stadium]";
+        return "Dosis obat demam: [Detail dosis berdasarkan stadium]"; // ada 3 sstadium atau 3 fase nanti
     }
 }
