@@ -23,6 +23,4 @@ public class Apotik {
             System.out.println("5. Sakit Hati");
             System.out.println("0. Selesai dan cetak struk");
 
-            if (jenis == 0) {
-                break;
-            }
+            
