@@ -9,3 +9,11 @@ class ObatLukaLuar extends Obat {
   public double getHarga() {
         return harga;
     }
+
+  @Override
+    public String dosis() {
+        switch (stadium) {
+            case 1: 
+                return "Cuma Solat obatnya.";
+
+         yaudah solat broo
