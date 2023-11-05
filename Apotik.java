@@ -9,3 +9,7 @@ public class Apotik {
         Kasir kasir = new Kasir();
         String namaPelanggan;
         boolean adaKeluhanLain;
+
+        System.out.println("Selamat Datang di Apotik");
+        System.out.print("Masukkan nama Anda: ");
+        namaPelanggan = scanner.nextLine();
