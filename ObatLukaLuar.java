@@ -2,10 +2,10 @@ class ObatLukaLuar extends Obat {
     public ObatLukaLuar(int stadium, String namaObat) {
         super(namaObat, stadium);
     }
-
+/**
   public double getHarga() {
         return harga;
-    }
+    } */
 
   @Override
     public String dosis() {
