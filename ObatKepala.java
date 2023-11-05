@@ -10,4 +10,8 @@ class ObatKepala extends Obat {
         return harga;
     }
 
-    
+  @Override
+    public String dosis() {
+        switch (stadium) {
+            case 1:
+                return "Dosis ringan: 1 tablet setiap 6 jam.";  
