@@ -13,3 +13,9 @@ public class Apotik {
         System.out.println("Selamat Datang di Apotik");
         System.out.print("Masukkan nama Anda: ");
         namaPelanggan = scanner.nextLine();
+
+        do {
+            System.out.println("1. Sakit Kepala");
+            System.out.println("2. Demam");
+            System.out.println("3. Luka Luar");
+            System.out.println("4. Luka Dalam");
