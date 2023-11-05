@@ -1,4 +1,4 @@
-import java.text.DecimalFormat;
+import java.text.DecimalFormat; // digunakan untuk mengubah format angka menjadi tampilan yang lebih terstruktur dan mudah dibaca
 import java.util.ArrayList;
 import java.util.List;
 
