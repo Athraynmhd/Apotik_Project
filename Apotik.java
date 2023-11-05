@@ -34,3 +34,7 @@ public class Apotik {
             System.out.println("2. Stadium 2 (Sakit yang sedang, memerlukan penanganan lebih lanjut)");
             System.out.println("3. Stadium 3 (Sakit yang berat, dosis obat yang lebih tinggi diperlukan)");
             int stadium = Integer.parseInt(scanner.nextLine());
+
+            if (stadium == 1) {
+                System.out.println("Untuk stadium 1, tidak ada obat yang diperlukan. Lemah kali aelah");
+            } else {
