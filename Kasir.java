@@ -17,4 +17,11 @@ public class Kasir {
         return obatTerpilih.isEmpty();
     }
 
- 
+    public void cetakStruk(String namaPelanggan) {
+        double totalHarga = 0;
+        
+        System.out.println("\nStruk Pembelian Obat:");
+        System.out.println("Nama Pelanggan: " + namaPelanggan);
+        System.out.format("+----------------------+----------+--------------+------------------------------------------+-------------------------+------------------+%n");
+        System.out.format("| Sakit                | Stadium  | Jumlah Obat  | Dosis                                    | Nama Obat               | Harga            |%n");
+        System.out.format("+----------------------+----------+--------------+------------------------------------------+-------------------------+------------------+%n");
