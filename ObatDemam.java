@@ -1,5 +1,5 @@
 class ObatDemam extends Obat {
-    private  harga;
+    private double harga;
 
     
 
