@@ -35,7 +35,7 @@ public class Apotik {
             System.out.println("3. Stadium 3 (Sakit yang berat, dosis obat yang lebih tinggi diperlukan)");
             int stadium = Integer.parseInt(scanner.nextLine());
 
-            if (stadium == 1) {
+             if(stadium == 1) {
                 System.out.println("Untuk stadium 1, tidak ada obat yang diperlukan. Disarankan minum air hangat dan cukup istirahat.");
             } else {
                 String[] opsiObat = getOpsiObat(jenis, stadium);
@@ -46,7 +46,6 @@ public class Apotik {
                 int pilihanObat = Integer.parseInt(scanner.nextLine());
                 String obatTerpilih = opsiObat[pilihanObat - 1];
 
-                double hargaObat = getHargaObat(jenis, stadium, obatTerpilih);
-                kasir.tambahObat(buatObat(jenis, stadium, obatTerpilih, hargaObat));
+                kasir.tambahObat(buatObat(jenis, stadium, obatTerpilih));
             }
                 
