@@ -45,4 +45,8 @@ public class Apotik {
                 }
                 int pilihanObat = Integer.parseInt(scanner.nextLine());
                 String obatTerpilih = opsiObat[pilihanObat - 1];
+
+                double hargaObat = getHargaObat(jenis, stadium, obatTerpilih);
+                kasir.tambahObat(buatObat(jenis, stadium, obatTerpilih, hargaObat));
+            }
                 
