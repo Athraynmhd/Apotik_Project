@@ -36,5 +36,5 @@ public class Apotik {
             int stadium = Integer.parseInt(scanner.nextLine());
 
             if (stadium == 1) {
-                System.out.println("Untuk stadium 1, tidak ada obat yang diperlukan. Lemah kali aelah");
+                System.out.println("Untuk stadium 1, tidak ada obat yang diperlukan. Disarankan minum air hangat dan cukup istirahat.");
             } else {
