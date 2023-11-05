@@ -30,7 +30,7 @@ public class Apotik {
             } 
 
             System.out.println("Masukkan stadium sakit:");
-            System.out.println("1. Sakitnya ringan gosah banya li tingkah lah");
-            System.out.println("2. sakit Butuh penanganan lebih lanjut");
-            System.out.println("3. omak hamper meninggoy bro");
-            int sakit = Integer.parseInt(scanner.nextLine());
+            System.out.println("1. Stadium 1 (Sakit yang masih ringan, disarankan minum air hangat dan istirahat)");
+            System.out.println("2. Stadium 2 (Sakit yang sedang, memerlukan penanganan lebih lanjut)");
+            System.out.println("3. Stadium 3 (Sakit yang berat, dosis obat yang lebih tinggi diperlukan)");
+            int stadium = Integer.parseInt(scanner.nextLine());
