@@ -1,14 +1,26 @@
 class ObatDemam extends Obat {
-    public ObatDemam(int stadium, String namaObat) {
+    private double harga;
+
+    public ObatDemam(int stadium, String namaObat, double harga) {
         super(namaObat, "Obat ini digunakan untuk menurunkan demam.", stadium);
+        this.harga = harga;
     }
 
     public double getHarga() {
         return harga;
     }
 
-     @Override
+    @Override
     public String dosis() {
-        return "Dosis obat demam: [Detail dosis berdasarkan stadium]"; // ada 3 sstadium atau 3 fase nanti
+        switch (stadium) {
+            case 1:
+                return "Dosis ringan: 1 tablet setiap 12 jam.";
+            case 2:
+                return "Dosis sedang: 1 tablet setiap 8 jam.";
+            case 3:
+                return "Dosis berat: 1 tablet setiap 4 jam.";
+            default:
+                return "Stadium tidak dikenal.";
+        }
     }
 }
