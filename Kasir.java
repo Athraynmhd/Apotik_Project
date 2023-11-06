@@ -19,7 +19,7 @@ public class Kasir {
 
     public void cetakStruk(String namaPelanggan) {
         double totalHarga = 0;
-        String leftAlignFormat = "| %-20s | %-8d | %-12s | %-40s | %-20s | %-15s |%n";
+        String leftAlignFormat = "| %-20s | %-8d | %-12s | %-40s | %-20s | %-15s |%n"; // Sesuaiin aja Sama hasil output, kalo kurang set ulang ya
         
         System.out.println("\nStruk Pembelian Obat:");
         System.out.println("Nama Pelanggan: " + namaPelanggan);
