@@ -1,8 +1,8 @@
 public abstract class Obat {
     protected String nama;
-    protected String deskripsi;
+    protected String deskripsi; // untuk desc obatnya
     protected int stadium;
-    private double harga;
+    private double harga; // untuk harga
 
     public Obat(String nama, String deskripsi, int stadium) {
         this.nama = nama;
