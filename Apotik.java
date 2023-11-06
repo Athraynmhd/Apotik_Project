@@ -1,7 +1,7 @@
 import java.text.DecimalFormat; // digunakan untuk mengubah format angka menjadi tampilan yang lebih terstruktur dan mudah dibaca
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.ArrayList;  // Import kelas ArrayList dari paket java.util
+import java.util.List;       // Import kelas List dari paket java.util
+import java.util.Scanner;    // Import kelas Scanner dari paket java.util
 
 public class Apotik {
     public static void main(String[] args) {
