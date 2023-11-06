@@ -2,7 +2,7 @@ public abstract class Obat {
     protected String nama;
     protected String deskripsi;
     protected int stadium;
-   // private double harga;
+    private double harga;
 
     public Obat(String nama, String deskripsi, int stadium) {
         this.nama = nama;
@@ -10,9 +10,9 @@ public abstract class Obat {
         this.stadium = stadium;
     }    
 
-   /** public double getHarga() {
+     public double getHarga() {
         return harga;
-    } */
+    } 
     
     public String getNama() {
         return nama;
