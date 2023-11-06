@@ -1,6 +1,13 @@
 class ObatKepala extends Obat {
-    public ObatKepala(int stadium, String namaObat) {
+    private double harga;
+
+    public ObatKepala(int stadium, String namaObat, double harga) {
         super(namaObat, "Obat ini digunakan untuk meredakan sakit kepala.", stadium);
+        this.harga = harga;
+    }
+
+    public double getHarga() {
+        return harga;
     }
 
     @Override
@@ -17,3 +24,4 @@ class ObatKepala extends Obat {
         }
     }
 }
+
