@@ -36,7 +36,7 @@ public class Apotik {
             int stadium = Integer.parseInt(scanner.nextLine());
 
              if(stadium == 1) {
-                System.out.println("Untuk stadium 1, tidak ada obat yang diperlukan. Disarankan minum air hangat dan cukup istirahat.");
+                System.out.println("Untuk stadium 1, tidak ada obat yang diperlukan. Disarankan minum air hangat dan cukup istirahat."); //samain aja untuk semua sakit kalo stadium 1
             } else {
                 String[] opsiObat = getOpsiObat(jenis, stadium);
                 System.out.println("Pilih obat:");
