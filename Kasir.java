@@ -26,3 +26,9 @@ public class Kasir {
         System.out.format("+----------------------+----------+--------------+------------------------------------------+-------------------------+------------------+%n");
         System.out.format("| Sakit                | Stadium  | Jumlah Obat  | Dosis                                    | Nama Obat               | Harga            |%n");
         System.out.format("+----------------------+----------+--------------+------------------------------------------+-------------------------+------------------+%n");
+        
+    for (Obat obat : obatTerpilih) {
+        if (obat != null) {
+            String jenisSakit = extractSakitFromNamaObat(obat.getNama());
+            System.out.format(leftAlignFormat, jenisSakit, obat.getStadium(), "1", obat.dosis(), obat.getNama(), formatHarga(obat.getHarga()));
+    }
