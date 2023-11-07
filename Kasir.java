@@ -31,4 +31,5 @@ public class Kasir {
         if (obat != null) {
             String jenisSakit = extractSakitFromNamaObat(obat.getNama());
             System.out.format(leftAlignFormat, jenisSakit, obat.getStadium(), "1", obat.dosis(), obat.getNama(), formatHarga(obat.getHarga()));
+        } //tambah else yok
     }
