@@ -59,5 +59,11 @@ public class Kasir {
             return "Demam";
         } else if (namaObat.contains("Antiseptik") || namaObat.contains("Salep")) {
             return "Luka Luar";
+        }  else if (namaObat.contains("Antibiotik") || namaObat.contains("Pain Reliever")) {
+            return "Luka Dalam";
+        } else if (namaObat.contains("Antistres") || namaObat.contains("Penenang")) {
+            return "Sakit Hati";
+        } else {
+            return "Tak dikenal";
         }
     }
