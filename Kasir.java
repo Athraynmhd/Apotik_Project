@@ -43,3 +43,11 @@ public class Kasir {
     System.out.format("+----------------------+----------+--------------+------------------------------------------+-------------------------+------------------+%n");
     DecimalFormat decimalFormat = new DecimalFormat("Rp #,###,###.###");
     System.out.println("Total Harga: " + decimalFormat.format(totalHarga));
+
+    System.out.println("\nDeskripsi Obat:");
+    for (Obat obat : obatTerpilih) {
+        if (obat != null) {
+            System.out.println(obat.getNama() + " - " + obat.getDeskripsi());
+        }
+    }
+}
