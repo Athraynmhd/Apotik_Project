@@ -25,6 +25,7 @@ public class Kasir {
         
         System.out.println("\nStruk Pembelian Obat:");
         System.out.println("Nama Pelanggan: " + namaPelanggan);
+        System.out.println("Waktu saat ini: " + now.format(formatter));
         System.out.format("+----------------------+----------+--------------+------------------------------------------+-------------------------+------------------+%n");
         System.out.format("| Sakit                | Stadium  | Jumlah Obat  | Dosis                                    | Nama Obat               | Harga            |%n");
         System.out.format("+----------------------+----------+--------------+------------------------------------------+-------------------------+------------------+%n");
