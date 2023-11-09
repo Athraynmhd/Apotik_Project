@@ -64,6 +64,6 @@ public class Kasir {
         } else if (namaObat.contains("Antistres") || namaObat.contains("Penenang")) {
             return "Sakit Hati";
         } else {
-            return "Tak dikenal";
+            return "Jenis Sakit Tidak Diketahui";
         }
     }
