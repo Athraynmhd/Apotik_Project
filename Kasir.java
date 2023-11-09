@@ -6,6 +6,8 @@ import java.time.format.DateTimeFormatter;
 
 public class Kasir {
     private List<Obat> obatTerpilih;
+    String NamaKasir;
+    String IdKasir;
 
     public Kasir() {
         obatTerpilih = new ArrayList<>();
