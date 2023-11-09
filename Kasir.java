@@ -57,5 +57,7 @@ public class Kasir {
             return "Sakit Kepala";
         } else if (namaObat.contains("Paracetamol") || namaObat.contains("Acetaminophen") || namaObat.contains("Ibuprofen") || namaObat.contains("Naproxen")) {
             return "Demam";
-        } 
+        } else if (namaObat.contains("Antiseptik") || namaObat.contains("Salep")) {
+            return "Luka Luar";
+        }
     }
