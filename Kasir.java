@@ -67,3 +67,10 @@ public class Kasir {
             return "Jenis Sakit Tidak Diketahui";
         }
     }
+
+    private String formatHarga(double harga) {
+        DecimalFormat decimalFormat = new DecimalFormat("Rp #,###,###.###");
+        return decimalFormat.format(harga);
+    }
+}
+
