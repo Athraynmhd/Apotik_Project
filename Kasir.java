@@ -8,6 +8,7 @@ public class Kasir {
     private List<Obat> obatTerpilih;
     String NamaKasir;
     String IdKasir;
+    LocalDateTime now = LocalDateTime.now();
 
     public Kasir() {
         obatTerpilih = new ArrayList<>();
