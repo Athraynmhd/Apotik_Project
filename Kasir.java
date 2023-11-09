@@ -9,6 +9,7 @@ public class Kasir {
     String NamaKasir;
     String IdKasir;
     LocalDateTime now = LocalDateTime.now();
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
     public Kasir() {
         obatTerpilih = new ArrayList<>();
