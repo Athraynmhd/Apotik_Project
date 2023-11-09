@@ -11,6 +11,10 @@ public class Apotik {
         boolean adaKeluhanLain;
 
         System.out.println("Selamat Datang di Apotik");
+
+        System.out.print("Masukkan Id_Kasir: ");
+        String ID = scanner.nextLine();
+        kasir.setIdKasir(ID);
         System.out.print("Masukkan nama Anda: ");
         namaPelanggan = scanner.nextLine();
 
