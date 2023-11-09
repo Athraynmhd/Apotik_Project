@@ -16,7 +16,8 @@ public class Apotik {
             System.out.print("Masukkan Id_Kasir: ");
             String ID = scanner.nextLine();
             kasir.setIdKasir(ID);
-        }while
+        }while(kasir.NamaKasir == null);
+        
         System.out.print("Masukkan nama Anda: ");
         namaPelanggan = scanner.nextLine();
 
