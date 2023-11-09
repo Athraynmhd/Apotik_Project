@@ -55,5 +55,7 @@ public class Kasir {
      private String extractSakitFromNamaObat(String namaObat) {
         if (namaObat.contains("Panadol") || namaObat.contains("Bodrex") || namaObat.contains("Ibuprofen") || namaObat.contains("Aspirin")) {
             return "Sakit Kepala";
-        }
+        } else if (namaObat.contains("Paracetamol") || namaObat.contains("Acetaminophen") || namaObat.contains("Ibuprofen") || namaObat.contains("Naproxen")) {
+            return "Demam";
+        } 
     }
