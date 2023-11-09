@@ -12,9 +12,11 @@ public class Apotik {
 
         System.out.println("Selamat Datang di Apotik");
 
-        System.out.print("Masukkan Id_Kasir: ");
-        String ID = scanner.nextLine();
-        kasir.setIdKasir(ID);
+        do{
+            System.out.print("Masukkan Id_Kasir: ");
+            String ID = scanner.nextLine();
+            kasir.setIdKasir(ID);
+        }while
         System.out.print("Masukkan nama Anda: ");
         namaPelanggan = scanner.nextLine();
 
