@@ -39,3 +39,7 @@ public class Kasir {
             System.out.println("Ada obat yang tidak teridentifikasi.");
         }
     }
+
+    System.out.format("+----------------------+----------+--------------+------------------------------------------+-------------------------+------------------+%n");
+    DecimalFormat decimalFormat = new DecimalFormat("Rp #,###,###.###");
+    System.out.println("Total Harga: " + decimalFormat.format(totalHarga));
