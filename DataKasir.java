@@ -8,6 +8,8 @@ public class DataKasir extends Kasir
         } else if ("K002".equals(IdKasir)) {
             this.NamaKasir = "Nagaragana";
             this.IdKasir = "K002";
+        }  else {
+            System.out.println("ID Kasir tidak valid.");
         }
      }
    
